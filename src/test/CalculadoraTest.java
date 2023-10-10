@@ -38,4 +38,14 @@ class CalculadoraTest {
 		assertEquals(1, Calculadora.resta(3,2));
 	}
 
+	@Test
+	void testMultiplica() {
+		assertEquals(6, Calculadora.multiplica(3,2));
+	}
+
+	@Test
+	void testDivide() {
+		assertEquals(0, Calculadora.divide(2,3));
+	}
+
 }
